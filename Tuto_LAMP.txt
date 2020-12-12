@@ -1,5 +1,3 @@
-# User Guide Apache sur Linux
-
 Les fichiers sont à placer dans /var/www/html/
 
 ##########################################################
@@ -36,7 +34,6 @@ sudo systemctl restart apache2
 sudo nano /etc/apache2/sites-available/FlaskApp.conf
 
 10. Taper les lignes suivantes
-
 <VirtualHost *:80>
 	ServerName localhost
 	WSGIScriptAlias / /var/www/html/Phylogenie/wsgi_scripts/phylogenie.wsgi
@@ -53,15 +50,12 @@ sudo nano /etc/apache2/sites-available/FlaskApp.conf
 	LogLevel warn
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-
 Sauver et quitter
 
 11. Appliquer la nouvelle configuration
-
 sudo a2ensite FlaskApp
 
 12. Redémarer Apache
-
 sudo service apache2 restart 
 
 Le site est maintenant accessible à l'adresse http://localhost/Phylogenie
