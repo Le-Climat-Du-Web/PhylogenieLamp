@@ -2,10 +2,10 @@
 
 Les fichiers sont à placer dans /var/www/html/
 
+-------------------
 
 ## Installation des librairies                 
 
-----------------------------------------------
 
 Biopython : `pip install biopython`
 
@@ -15,7 +15,7 @@ Flask : `pip insatll Flask`
 
 matplotlib : `pip install matplotlib`
 
-----------------------------------------------
+------------------
 
 1. Installation de apache2
 
@@ -67,6 +67,10 @@ s`udo nano /etc/apache2/conf-available/mod-wsgi.conf`
 	LogLevel warn
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>```
+
+
+
+
 
 Sauver et quitter
 
