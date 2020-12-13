@@ -2,9 +2,11 @@
 
 Les fichiers sont à placer dans /var/www/html/
 
-##########################################################
-#            Installation des librairies                 #
-##########################################################
+
+## Installation des librairies                 
+
+---------------------------------------------------------------------------------
+
 Biopython : `pip install biopython`
 
 Mettre à jour Biopython : `pip install biopython --upgrade`
@@ -13,7 +15,7 @@ Flask : `pip insatll Flask`
 
 matplotlib : `pip install matplotlib`
 
-##########################################################
+----------------------------------------------------------------------------------
 
 1. Installation de apache2
 
