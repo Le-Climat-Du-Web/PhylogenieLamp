@@ -5,7 +5,7 @@ Les fichiers sont à placer dans /var/www/html/
 
 ## Installation des librairies                 
 
----------------------------------------------------------------------------------
+----------------------------------------------
 
 Biopython : `pip install biopython`
 
@@ -15,7 +15,7 @@ Flask : `pip insatll Flask`
 
 matplotlib : `pip install matplotlib`
 
-----------------------------------------------------------------------------------
+----------------------------------------------
 
 1. Installation de apache2
 
@@ -51,7 +51,7 @@ s`udo nano /etc/apache2/conf-available/mod-wsgi.conf`
 
 10. Taper les lignes suivantes
 
-``<VirtualHost *:80>
+```<VirtualHost *:80>
 	ServerName localhost
 	WSGIScriptAlias / /var/www/html/Phylogenie/wsgi_scripts/phylogenie.wsgi
 	<Directory /var/www/html/Phylogenie/>
@@ -66,7 +66,7 @@ s`udo nano /etc/apache2/conf-available/mod-wsgi.conf`
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 	LogLevel warn
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
-</VirtualHost>``
+</VirtualHost>```
 
 Sauver et quitter
 
