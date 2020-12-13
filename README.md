@@ -1,4 +1,4 @@
-# User Guide Apache sur Linux
+# [center]User Guide Apache sur Linux
 
 Les fichiers sont à placer dans /var/www/html/
 
@@ -79,5 +79,5 @@ Sauver et quitter
 
 `sudo service apache2 restart`
 
-Le site est maintenant accessible à l'adresse http://localhost/Phylogenie
+Le site est maintenant accessible à l'adresse http://localhost/Phylogenie [/center]
 
